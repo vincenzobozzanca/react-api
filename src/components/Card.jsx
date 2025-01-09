@@ -17,7 +17,7 @@ export function Card({
     ));
   }
   return (
-    <div className={styles.card}>
+    <div className={`card ${styles.card}`}>
       <h2 className={styles.title}>{titolo}</h2>
       <img src={immagine} alt="" className={styles.image} />
       <p className={styles.content}>{contenuto}</p>
